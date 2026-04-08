@@ -1,0 +1,90 @@
+[
+  {
+    "id": "inss-001",
+    "numeroBeneficio": "1234567890",
+    "titularCpf": "52998224725",
+    "tipo": "Aposentadoria por Idade",
+    "situacao": "ativo",
+    "dataConcessao": "2020-06-15",
+    "valorMensal": 2824.00,
+    "banco": "Banco do Brasil",
+    "agencia": "1234-5",
+    "conta": "67890-1",
+    "competencias": [
+      { "mesAno": "2026-03", "valorBruto": 2824.00, "descontoIR": 0, "valorLiquido": 2824.00, "dataPagamento": "2026-03-25" },
+      { "mesAno": "2026-02", "valorBruto": 2824.00, "descontoIR": 0, "valorLiquido": 2824.00, "dataPagamento": "2026-02-24" },
+      { "mesAno": "2026-01", "valorBruto": 2824.00, "descontoIR": 0, "valorLiquido": 2824.00, "dataPagamento": "2026-01-27" }
+    ]
+  },
+  {
+    "id": "inss-002",
+    "numeroBeneficio": "9876543210",
+    "titularCpf": "11144477735",
+    "tipo": "Auxílio-Doença",
+    "situacao": "ativo",
+    "dataConcessao": "2025-11-01",
+    "dataFim": "2026-05-01",
+    "valorMensal": 1980.50,
+    "banco": "Caixa Econômica Federal",
+    "agencia": "0987-6",
+    "conta": "54321-0",
+    "competencias": [
+      { "mesAno": "2026-03", "valorBruto": 1980.50, "descontoIR": 0, "valorLiquido": 1980.50, "dataPagamento": "2026-03-25" },
+      { "mesAno": "2026-02", "valorBruto": 1980.50, "descontoIR": 0, "valorLiquido": 1980.50, "dataPagamento": "2026-02-24" },
+      { "mesAno": "2026-01", "valorBruto": 1980.50, "descontoIR": 0, "valorLiquido": 1980.50, "dataPagamento": "2026-01-27" }
+    ]
+  },
+  {
+    "id": "inss-003",
+    "numeroBeneficio": "5566778899",
+    "titularCpf": "45612378901",
+    "tipo": "Pensão por Morte",
+    "situacao": "ativo",
+    "dataConcessao": "2023-03-10",
+    "valorMensal": 3450.00,
+    "banco": "Itaú Unibanco",
+    "agencia": "4567-8",
+    "conta": "12345-6",
+    "competencias": [
+      { "mesAno": "2026-03", "valorBruto": 3450.00, "descontoIR": 117.99, "valorLiquido": 3332.01, "dataPagamento": "2026-03-25" },
+      { "mesAno": "2026-02", "valorBruto": 3450.00, "descontoIR": 117.99, "valorLiquido": 3332.01, "dataPagamento": "2026-02-24" },
+      { "mesAno": "2026-01", "valorBruto": 3450.00, "descontoIR": 117.99, "valorLiquido": 3332.01, "dataPagamento": "2026-01-27" }
+    ]
+  },
+  {
+    "id": "inss-004",
+    "numeroBeneficio": "3344556677",
+    "titularCpf": "21436587009",
+    "tipo": "BPC/LOAS",
+    "situacao": "ativo",
+    "dataConcessao": "2024-09-01",
+    "valorMensal": 1518.00,
+    "banco": "Caixa Econômica Federal",
+    "agencia": "2345-6",
+    "conta": "78901-2",
+    "competencias": [
+      { "mesAno": "2026-03", "valorBruto": 1518.00, "descontoIR": 0, "valorLiquido": 1518.00, "dataPagamento": "2026-03-25" },
+      { "mesAno": "2026-02", "valorBruto": 1518.00, "descontoIR": 0, "valorLiquido": 1518.00, "dataPagamento": "2026-02-24" },
+      { "mesAno": "2026-01", "valorBruto": 1518.00, "descontoIR": 0, "valorLiquido": 1518.00, "dataPagamento": "2026-01-27" }
+    ]
+  },
+  {
+    "id": "inss-005",
+    "numeroBeneficio": "7788990011",
+    "titularCpf": "87654321098",
+    "tipo": "Salário-Maternidade",
+    "situacao": "cessado",
+    "dataConcessao": "2025-06-01",
+    "dataFim": "2025-09-29",
+    "valorMensal": 4200.00,
+    "banco": "Bradesco",
+    "agencia": "6789-0",
+    "conta": "34567-8",
+    "competencias": [
+      { "mesAno": "2025-09", "valorBruto": 4200.00, "descontoIR": 186.03, "valorLiquido": 4013.97, "dataPagamento": "2025-09-25" },
+      { "mesAno": "2025-08", "valorBruto": 4200.00, "descontoIR": 186.03, "valorLiquido": 4013.97, "dataPagamento": "2025-08-25" },
+      { "mesAno": "2025-07", "valorBruto": 4200.00, "descontoIR": 186.03, "valorLiquido": 4013.97, "dataPagamento": "2025-07-25" },
+      { "mesAno": "2025-06", "valorBruto": 4200.00, "descontoIR": 186.03, "valorLiquido": 4013.97, "dataPagamento": "2025-06-25" }
+    ]
+  }
+]

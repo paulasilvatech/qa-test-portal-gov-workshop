@@ -1,0 +1,130 @@
+[
+  {
+    "id": "bf-001",
+    "titularCpf": "21436587009",
+    "nis": "12345678901",
+    "valorMensal": 600.00,
+    "situacao": "ativo",
+    "dataConcessao": "2023-01-15",
+    "finalNIS": 1,
+    "composicaoFamiliar": [
+      { "nome": "Maria Silva Santos", "parentesco": "Titular", "cpf": "21436587009", "dataNascimento": "1985-06-22", "escola": null },
+      { "nome": "João Pedro Santos", "parentesco": "Filho", "cpf": null, "dataNascimento": "2015-03-10", "escola": "E.M. Prof. Alcida Torres" },
+      { "nome": "Ana Clara Santos", "parentesco": "Filha", "cpf": null, "dataNascimento": "2018-11-05", "escola": "EMEI Alaíde Lisboa" }
+    ],
+    "calendario": [
+      { "mesReferencia": "2026-03", "dataPagamento": "2026-03-18", "valor": 600.00, "status": "disponivel" },
+      { "mesReferencia": "2026-04", "dataPagamento": "2026-04-17", "valor": 600.00, "status": "agendado" },
+      { "mesReferencia": "2026-05", "dataPagamento": "2026-05-19", "valor": 600.00, "status": "agendado" }
+    ],
+    "extratos": [
+      { "mesReferencia": "2026-02", "dataPagamento": "2026-02-17", "valor": 600.00, "parcelas": [{"tipo": "Benefício Primeira Infância", "valor": 150.00}, {"tipo": "Benefício Variável Familiar", "valor": 150.00}, {"tipo": "Benefício de Renda de Cidadania", "valor": 300.00}] },
+      { "mesReferencia": "2026-01", "dataPagamento": "2026-01-20", "valor": 600.00, "parcelas": [{"tipo": "Benefício Primeira Infância", "valor": 150.00}, {"tipo": "Benefício Variável Familiar", "valor": 150.00}, {"tipo": "Benefício de Renda de Cidadania", "valor": 300.00}] }
+    ]
+  },
+  {
+    "id": "bf-002",
+    "titularCpf": "87654321098",
+    "nis": "23456789012",
+    "valorMensal": 750.00,
+    "situacao": "ativo",
+    "dataConcessao": "2022-08-10",
+    "finalNIS": 2,
+    "composicaoFamiliar": [
+      { "nome": "Fernanda Oliveira Costa", "parentesco": "Titular", "cpf": "87654321098", "dataNascimento": "1990-02-14", "escola": null },
+      { "nome": "Lucas Oliveira Costa", "parentesco": "Filho", "cpf": null, "dataNascimento": "2012-07-20", "escola": "E.M. Hugo Werneck" },
+      { "nome": "Beatriz Oliveira Costa", "parentesco": "Filha", "cpf": null, "dataNascimento": "2016-09-30", "escola": "E.M. Prof. Alcida Torres" },
+      { "nome": "Miguel Oliveira Costa", "parentesco": "Filho", "cpf": null, "dataNascimento": "2022-01-12", "escola": "EMEI Alaíde Lisboa" }
+    ],
+    "calendario": [
+      { "mesReferencia": "2026-03", "dataPagamento": "2026-03-19", "valor": 750.00, "status": "disponivel" },
+      { "mesReferencia": "2026-04", "dataPagamento": "2026-04-18", "valor": 750.00, "status": "agendado" }
+    ],
+    "extratos": [
+      { "mesReferencia": "2026-02", "dataPagamento": "2026-02-18", "valor": 750.00, "parcelas": [{"tipo": "Benefício Primeira Infância", "valor": 150.00}, {"tipo": "Benefício Variável Familiar", "valor": 300.00}, {"tipo": "Benefício de Renda de Cidadania", "valor": 300.00}] }
+    ]
+  },
+  {
+    "id": "bf-003",
+    "titularCpf": "14725836900",
+    "nis": "34567890123",
+    "valorMensal": 450.00,
+    "situacao": "ativo",
+    "dataConcessao": "2024-03-01",
+    "finalNIS": 3,
+    "composicaoFamiliar": [
+      { "nome": "Carlos Eduardo Pereira", "parentesco": "Titular", "cpf": "14725836900", "dataNascimento": "1978-12-03", "escola": null },
+      { "nome": "Juliana Pereira", "parentesco": "Cônjuge", "cpf": "95132468700", "dataNascimento": "1980-05-17", "escola": null },
+      { "nome": "Gabriel Pereira", "parentesco": "Filho", "cpf": null, "dataNascimento": "2010-04-25", "escola": "E.E. Governador Milton Campos" }
+    ],
+    "calendario": [
+      { "mesReferencia": "2026-03", "dataPagamento": "2026-03-20", "valor": 450.00, "status": "disponivel" },
+      { "mesReferencia": "2026-04", "dataPagamento": "2026-04-21", "valor": 450.00, "status": "agendado" }
+    ],
+    "extratos": [
+      { "mesReferencia": "2026-02", "dataPagamento": "2026-02-19", "valor": 450.00, "parcelas": [{"tipo": "Benefício Variável Familiar", "valor": 150.00}, {"tipo": "Benefício de Renda de Cidadania", "valor": 300.00}] }
+    ]
+  },
+  {
+    "id": "bf-004",
+    "titularCpf": "32178945612",
+    "nis": "45678901234",
+    "valorMensal": 900.00,
+    "situacao": "ativo",
+    "dataConcessao": "2021-11-20",
+    "finalNIS": 4,
+    "composicaoFamiliar": [
+      { "nome": "Patrícia Souza Lima", "parentesco": "Titular", "cpf": "32178945612", "dataNascimento": "1988-08-09", "escola": null },
+      { "nome": "Rafaela Souza Lima", "parentesco": "Filha", "cpf": null, "dataNascimento": "2013-02-14", "escola": "E.M. Santos Dumont" },
+      { "nome": "Pedro Souza Lima", "parentesco": "Filho", "cpf": null, "dataNascimento": "2017-06-28", "escola": "E.M. Prof. Alcida Torres" },
+      { "nome": "Sofia Souza Lima", "parentesco": "Filha", "cpf": null, "dataNascimento": "2020-10-15", "escola": "EMEI Alaíde Lisboa" },
+      { "nome": "Helena Souza Lima", "parentesco": "Filha", "cpf": null, "dataNascimento": "2024-04-02", "escola": null }
+    ],
+    "calendario": [
+      { "mesReferencia": "2026-03", "dataPagamento": "2026-03-21", "valor": 900.00, "status": "disponivel" },
+      { "mesReferencia": "2026-04", "dataPagamento": "2026-04-22", "valor": 900.00, "status": "agendado" }
+    ],
+    "extratos": [
+      { "mesReferencia": "2026-02", "dataPagamento": "2026-02-20", "valor": 900.00, "parcelas": [{"tipo": "Benefício Primeira Infância", "valor": 300.00}, {"tipo": "Benefício Variável Familiar", "valor": 300.00}, {"tipo": "Benefício de Renda de Cidadania", "valor": 300.00}] }
+    ]
+  },
+  {
+    "id": "bf-005",
+    "titularCpf": "65498732178",
+    "nis": "56789012345",
+    "valorMensal": 300.00,
+    "situacao": "suspenso",
+    "dataConcessao": "2023-05-12",
+    "motivoSuspensao": "Pendência de atualização cadastral no CadÚnico",
+    "finalNIS": 5,
+    "composicaoFamiliar": [
+      { "nome": "Roberto Almeida Neto", "parentesco": "Titular", "cpf": "65498732178", "dataNascimento": "1975-11-30", "escola": null },
+      { "nome": "Marcos Almeida", "parentesco": "Filho", "cpf": null, "dataNascimento": "2009-08-14", "escola": "E.E. Barão do Rio Branco" }
+    ],
+    "calendario": [],
+    "extratos": [
+      { "mesReferencia": "2025-10", "dataPagamento": "2025-10-22", "valor": 300.00, "parcelas": [{"tipo": "Benefício de Renda de Cidadania", "valor": 300.00}] }
+    ]
+  },
+  {
+    "id": "bf-006",
+    "titularCpf": "98765432100",
+    "nis": "67890123456",
+    "valorMensal": 600.00,
+    "situacao": "ativo",
+    "dataConcessao": "2024-07-01",
+    "finalNIS": 6,
+    "composicaoFamiliar": [
+      { "nome": "Claudia Ferreira Rocha", "parentesco": "Titular", "cpf": "98765432100", "dataNascimento": "1992-03-18", "escola": null },
+      { "nome": "Davi Ferreira Rocha", "parentesco": "Filho", "cpf": null, "dataNascimento": "2019-12-05", "escola": "EMEI Alaíde Lisboa" },
+      { "nome": "Valentina Ferreira Rocha", "parentesco": "Filha", "cpf": null, "dataNascimento": "2023-07-22", "escola": null }
+    ],
+    "calendario": [
+      { "mesReferencia": "2026-03", "dataPagamento": "2026-03-25", "valor": 600.00, "status": "disponivel" },
+      { "mesReferencia": "2026-04", "dataPagamento": "2026-04-24", "valor": 600.00, "status": "agendado" }
+    ],
+    "extratos": [
+      { "mesReferencia": "2026-02", "dataPagamento": "2026-02-24", "valor": 600.00, "parcelas": [{"tipo": "Benefício Primeira Infância", "valor": 150.00}, {"tipo": "Benefício Variável Familiar", "valor": 150.00}, {"tipo": "Benefício de Renda de Cidadania", "valor": 300.00}] }
+    ]
+  }
+]

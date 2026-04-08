@@ -1,0 +1,146 @@
+[
+  {
+    "id": "fgts-001",
+    "titularCpf": "52998224725",
+    "empresa": "Tech Solutions Ltda",
+    "cnpj": "12345678000195",
+    "dataAdmissao": "2018-03-15",
+    "dataDemissao": null,
+    "situacao": "ativo",
+    "saldoTotal": 45230.87,
+    "saldoDisponivel": 4523.09,
+    "optanteSaqueAniversario": true,
+    "mesSaqueAniversario": "07",
+    "movimentacoes": [
+      { "data": "2026-03-07", "tipo": "deposito", "descricao": "Depósito mensal - competência 02/2026", "valor": 640.00, "saldoApos": 45230.87 },
+      { "data": "2026-02-07", "tipo": "deposito", "descricao": "Depósito mensal - competência 01/2026", "valor": 640.00, "saldoApos": 44590.87 },
+      { "data": "2026-01-10", "tipo": "rendimento", "descricao": "Crédito JAM (Juros e Atualização Monetária)", "valor": 134.52, "saldoApos": 43950.87 },
+      { "data": "2025-07-01", "tipo": "saque_aniversario", "descricao": "Saque-Aniversário 2025", "valor": -4200.00, "saldoApos": 43816.35 }
+    ]
+  },
+  {
+    "id": "fgts-002",
+    "titularCpf": "11144477735",
+    "empresa": "Construtora Horizonte S.A.",
+    "cnpj": "98765432000156",
+    "dataAdmissao": "2021-08-02",
+    "dataDemissao": null,
+    "situacao": "ativo",
+    "saldoTotal": 18750.33,
+    "saldoDisponivel": 0,
+    "optanteSaqueAniversario": false,
+    "mesSaqueAniversario": null,
+    "movimentacoes": [
+      { "data": "2026-03-07", "tipo": "deposito", "descricao": "Depósito mensal - competência 02/2026", "valor": 480.00, "saldoApos": 18750.33 },
+      { "data": "2026-02-07", "tipo": "deposito", "descricao": "Depósito mensal - competência 01/2026", "valor": 480.00, "saldoApos": 18270.33 },
+      { "data": "2026-01-10", "tipo": "rendimento", "descricao": "Crédito JAM (Juros e Atualização Monetária)", "valor": 56.37, "saldoApos": 17790.33 }
+    ]
+  },
+  {
+    "id": "fgts-003",
+    "titularCpf": "98765432100",
+    "empresa": "Supermercados BH Ltda",
+    "cnpj": "45678901000123",
+    "dataAdmissao": "2019-11-10",
+    "dataDemissao": null,
+    "situacao": "ativo",
+    "saldoTotal": 32100.50,
+    "saldoDisponivel": 3210.05,
+    "optanteSaqueAniversario": true,
+    "mesSaqueAniversario": "11",
+    "movimentacoes": [
+      { "data": "2026-03-07", "tipo": "deposito", "descricao": "Depósito mensal - competência 02/2026", "valor": 560.00, "saldoApos": 32100.50 },
+      { "data": "2025-11-01", "tipo": "saque_aniversario", "descricao": "Saque-Aniversário 2025", "valor": -3100.00, "saldoApos": 31540.50 },
+      { "data": "2026-01-10", "tipo": "rendimento", "descricao": "Crédito JAM (Juros e Atualização Monetária)", "valor": 98.20, "saldoApos": 31638.70 }
+    ]
+  },
+  {
+    "id": "fgts-004",
+    "titularCpf": "45612378901",
+    "empresa": "Hospital Mater Dei",
+    "cnpj": "17283945000187",
+    "dataAdmissao": "2015-05-20",
+    "dataDemissao": "2024-12-31",
+    "situacao": "inativo",
+    "saldoTotal": 0,
+    "saldoDisponivel": 0,
+    "optanteSaqueAniversario": false,
+    "mesSaqueAniversario": null,
+    "movimentacoes": [
+      { "data": "2025-01-15", "tipo": "saque_rescisao", "descricao": "Saque por rescisão sem justa causa", "valor": -67800.00, "saldoApos": 0 },
+      { "data": "2025-01-15", "tipo": "multa_rescisoria", "descricao": "Multa rescisória 40%", "valor": 27120.00, "saldoApos": 27120.00 }
+    ]
+  },
+  {
+    "id": "fgts-005",
+    "titularCpf": "78932165409",
+    "empresa": "Localiza Rent a Car S.A.",
+    "cnpj": "16670085000155",
+    "dataAdmissao": "2022-01-10",
+    "dataDemissao": null,
+    "situacao": "ativo",
+    "saldoTotal": 14890.22,
+    "saldoDisponivel": 0,
+    "optanteSaqueAniversario": false,
+    "mesSaqueAniversario": null,
+    "movimentacoes": [
+      { "data": "2026-03-07", "tipo": "deposito", "descricao": "Depósito mensal - competência 02/2026", "valor": 520.00, "saldoApos": 14890.22 },
+      { "data": "2026-02-07", "tipo": "deposito", "descricao": "Depósito mensal - competência 01/2026", "valor": 520.00, "saldoApos": 14370.22 },
+      { "data": "2026-01-10", "tipo": "rendimento", "descricao": "Crédito JAM (Juros e Atualização Monetária)", "valor": 43.12, "saldoApos": 13850.22 }
+    ]
+  },
+  {
+    "id": "fgts-006",
+    "titularCpf": "32178945612",
+    "empresa": "CEMIG Distribuição S.A.",
+    "cnpj": "06981180000116",
+    "dataAdmissao": "2016-09-01",
+    "dataDemissao": null,
+    "situacao": "ativo",
+    "saldoTotal": 58920.15,
+    "saldoDisponivel": 5892.02,
+    "optanteSaqueAniversario": true,
+    "mesSaqueAniversario": "04",
+    "movimentacoes": [
+      { "data": "2026-03-07", "tipo": "deposito", "descricao": "Depósito mensal - competência 02/2026", "valor": 880.00, "saldoApos": 58920.15 },
+      { "data": "2025-04-01", "tipo": "saque_aniversario", "descricao": "Saque-Aniversário 2025", "valor": -5500.00, "saldoApos": 58040.15 },
+      { "data": "2026-01-10", "tipo": "rendimento", "descricao": "Crédito JAM (Juros e Atualização Monetária)", "valor": 178.44, "saldoApos": 57161.71 }
+    ]
+  },
+  {
+    "id": "fgts-007",
+    "titularCpf": "65498732178",
+    "empresa": "Fiat Automóveis S.A.",
+    "cnpj": "16701716000156",
+    "dataAdmissao": "2020-02-17",
+    "dataDemissao": null,
+    "situacao": "ativo",
+    "saldoTotal": 27340.88,
+    "saldoDisponivel": 0,
+    "optanteSaqueAniversario": false,
+    "mesSaqueAniversario": null,
+    "movimentacoes": [
+      { "data": "2026-03-07", "tipo": "deposito", "descricao": "Depósito mensal - competência 02/2026", "valor": 720.00, "saldoApos": 27340.88 },
+      { "data": "2026-02-07", "tipo": "deposito", "descricao": "Depósito mensal - competência 01/2026", "valor": 720.00, "saldoApos": 26620.88 },
+      { "data": "2026-01-10", "tipo": "rendimento", "descricao": "Crédito JAM (Juros e Atualização Monetária)", "valor": 80.11, "saldoApos": 25900.88 }
+    ]
+  },
+  {
+    "id": "fgts-008",
+    "titularCpf": "14725836900",
+    "empresa": "Usiminas S.A.",
+    "cnpj": "60894730000105",
+    "dataAdmissao": "2017-06-05",
+    "dataDemissao": null,
+    "situacao": "ativo",
+    "saldoTotal": 52100.44,
+    "saldoDisponivel": 5210.04,
+    "optanteSaqueAniversario": true,
+    "mesSaqueAniversario": "06",
+    "movimentacoes": [
+      { "data": "2026-03-07", "tipo": "deposito", "descricao": "Depósito mensal - competência 02/2026", "valor": 760.00, "saldoApos": 52100.44 },
+      { "data": "2025-06-02", "tipo": "saque_aniversario", "descricao": "Saque-Aniversário 2025", "valor": -4800.00, "saldoApos": 51340.44 },
+      { "data": "2026-01-10", "tipo": "rendimento", "descricao": "Crédito JAM (Juros e Atualização Monetária)", "valor": 155.92, "saldoApos": 50384.52 }
+    ]
+  }
+]

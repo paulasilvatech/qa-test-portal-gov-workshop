@@ -1,0 +1,81 @@
+
+!.vscode/extensions.json
+# Byte-compiled / optimized / DLL files
+# C extensions
+# Distribution / packaging
+# Editor directories and files
+# Jupyter Notebook
+# Logs
+# PyInstaller
+# Pyre type checker
+# Pyright type checker
+# Unit test / coverage / pytest
+# VS Code settings
+# Virtual environments
+# mypy
+*.cover
+*.egg
+*.egg-info/
+*.local
+*.log
+*.manifest
+*.njsproj
+*.ntvs*
+*.py,cover
+*.py[cod]
+*.pyd
+*.pyo
+*.sln
+*.so
+*.spec
+*.suo
+*.sw?
+.DS_Store
+.Python
+.cache
+.coverage
+.coverage.*
+.dmypy.json
+.eggs/
+.env/
+.idea
+.installed.cfg
+.ipynb_checkpoints/
+.mypy_cache/
+.nox/
+.pyre/
+.pyrightcache/
+.pytest_cache/
+.tox/
+.venv/
+.vscode/*
+.vscode/node_modules/
+ENV*/
+ENV/
+__pycache__/
+build/
+coverage.xml
+develop-eggs/
+dist
+dist-ssr
+dist/
+downloads/
+eggs/
+env/
+htmlcov/
+junit-*.xml
+lerna-debug.log*
+lib/
+lib64/
+logs
+node_modules
+nosetests.xml
+npm-debug.log*
+parts/
+pnpm-debug.log*
+sdist/
+test-results/
+var/
+venv/
+yarn-debug.log*
+yarn-error.log*

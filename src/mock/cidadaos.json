@@ -1,0 +1,156 @@
+[
+  {
+    "cpf": "52998224725",
+    "nome": "Maria da Silva Oliveira",
+    "nis": "12345678901",
+    "email": "maria.oliveira@email.com",
+    "telefone": "31987654321",
+    "endereco": {
+      "logradouro": "Rua dos Inconfidentes",
+      "numero": "450",
+      "bairro": "Savassi",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "30130009"
+    }
+  },
+  {
+    "cpf": "11144477735",
+    "nome": "João Carlos Santos",
+    "nis": "20412748093",
+    "email": "joao.santos@email.com",
+    "telefone": "31991234567",
+    "endereco": {
+      "logradouro": "Avenida Afonso Pena",
+      "numero": "1200",
+      "complemento": "Apto 502",
+      "bairro": "Centro",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "30130005"
+    }
+  },
+  {
+    "cpf": "98765432100",
+    "nome": "Ana Paula Ferreira Costa",
+    "nis": "16254789013",
+    "email": "ana.costa@email.com",
+    "telefone": "31988776655",
+    "endereco": {
+      "logradouro": "Rua Sergipe",
+      "numero": "789",
+      "bairro": "Funcionários",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "30130174"
+    }
+  },
+  {
+    "cpf": "45612378901",
+    "nome": "Carlos Eduardo Mendes",
+    "nis": "12876543219",
+    "email": "carlos.mendes@email.com",
+    "telefone": "31976543210",
+    "endereco": {
+      "logradouro": "Rua da Bahia",
+      "numero": "1500",
+      "complemento": "Sala 301",
+      "bairro": "Lourdes",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "30160011"
+    }
+  },
+  {
+    "cpf": "78932165409",
+    "nome": "Fernanda Rodrigues Lima",
+    "nis": "20567891234",
+    "email": "fernanda.lima@email.com",
+    "telefone": "31965432187",
+    "endereco": {
+      "logradouro": "Avenida do Contorno",
+      "numero": "3200",
+      "bairro": "Santa Efigênia",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "30110017"
+    }
+  },
+  {
+    "cpf": "32178945612",
+    "nome": "Roberto Almeida Souza",
+    "nis": "16789012345",
+    "email": "roberto.souza@email.com",
+    "telefone": "31954321098",
+    "endereco": {
+      "logradouro": "Rua Curitiba",
+      "numero": "685",
+      "bairro": "Centro",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "30170120"
+    }
+  },
+  {
+    "cpf": "65498732178",
+    "nome": "Luciana Martins Pereira",
+    "nis": "12345098761",
+    "email": "luciana.pereira@email.com",
+    "telefone": "31943210987",
+    "endereco": {
+      "logradouro": "Rua Espírito Santo",
+      "numero": "900",
+      "complemento": "Apto 801",
+      "bairro": "Centro",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "30160030"
+    }
+  },
+  {
+    "cpf": "21436587009",
+    "nome": "Pedro Henrique Barbosa",
+    "nis": "20198765430",
+    "email": "pedro.barbosa@email.com",
+    "telefone": "31932109876",
+    "endereco": {
+      "logradouro": "Avenida Amazonas",
+      "numero": "2100",
+      "bairro": "Prado",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "30411020"
+    }
+  },
+  {
+    "cpf": "87654321098",
+    "nome": "Juliana Nascimento Reis",
+    "nis": "16890123456",
+    "email": "juliana.reis@email.com",
+    "telefone": "31921098765",
+    "endereco": {
+      "logradouro": "Rua Claudio Manoel",
+      "numero": "320",
+      "bairro": "Savassi",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "30140100"
+    }
+  },
+  {
+    "cpf": "14725836900",
+    "nome": "Thiago Moreira Xavier",
+    "nis": "12098765432",
+    "email": "thiago.xavier@email.com",
+    "telefone": "31910987654",
+    "endereco": {
+      "logradouro": "Rua Rio Grande do Norte",
+      "numero": "560",
+      "complemento": "Apto 1202",
+      "bairro": "Funcionários",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "30130131"
+    }
+  }
+]

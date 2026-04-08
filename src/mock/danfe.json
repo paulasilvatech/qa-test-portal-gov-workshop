@@ -1,0 +1,182 @@
+[
+  {
+    "id": "nfe-001",
+    "chaveAcesso": "31260212345678000195550010000001231123456789",
+    "numero": 123,
+    "serie": 1,
+    "dataEmissao": "2026-01-15T14:30:00",
+    "emitente": {
+      "cnpj": "12345678000195",
+      "razaoSocial": "Magazine Luiza S/A",
+      "nomeFantasia": "Magalu",
+      "inscricaoEstadual": "0621234567890",
+      "endereco": "Av. Amazonas, 5678",
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    },
+    "destinatarioCpf": "52998224725",
+    "naturezaOperacao": "Venda de mercadoria",
+    "itens": [
+      { "descricao": "Notebook Lenovo IdeaPad 3i", "ncm": "84713012", "quantidade": 1, "unidade": "UN", "valorUnitario": 3299.00, "valorTotal": 3299.00 },
+      { "descricao": "Mouse sem fio Logitech M185", "ncm": "84716053", "quantidade": 1, "unidade": "UN", "valorUnitario": 59.90, "valorTotal": 59.90 }
+    ],
+    "valorProdutos": 3358.90,
+    "valorFrete": 0,
+    "valorDesconto": 0,
+    "valorTotal": 3358.90,
+    "icms": 604.60,
+    "status": "autorizada",
+    "protocolo": "131260000012345"
+  },
+  {
+    "id": "nfe-002",
+    "chaveAcesso": "31260298765432000110550020000004561987654321",
+    "numero": 456,
+    "serie": 2,
+    "dataEmissao": "2026-02-10T09:15:00",
+    "emitente": {
+      "cnpj": "98765432000110",
+      "razaoSocial": "Casas Bahia Comercial Ltda",
+      "nomeFantasia": "Casas Bahia",
+      "inscricaoEstadual": "0629876543210",
+      "endereco": "Rua da Bahia, 1234",
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    },
+    "destinatarioCpf": "11144477735",
+    "naturezaOperacao": "Venda de mercadoria",
+    "itens": [
+      { "descricao": "Geladeira Brastemp Frost Free 375L", "ncm": "84182100", "quantidade": 1, "unidade": "UN", "valorUnitario": 3199.00, "valorTotal": 3199.00 },
+      { "descricao": "Micro-ondas Electrolux 31L", "ncm": "85166040", "quantidade": 1, "unidade": "UN", "valorUnitario": 649.00, "valorTotal": 649.00 }
+    ],
+    "valorProdutos": 3848.00,
+    "valorFrete": 89.90,
+    "valorDesconto": 200.00,
+    "valorTotal": 3737.90,
+    "icms": 672.82,
+    "status": "autorizada",
+    "protocolo": "131260000045678"
+  },
+  {
+    "id": "nfe-003",
+    "chaveAcesso": "31260311223344000156550010000007891234567890",
+    "numero": 789,
+    "serie": 1,
+    "dataEmissao": "2026-03-05T16:45:00",
+    "emitente": {
+      "cnpj": "11223344000156",
+      "razaoSocial": "Drogaria Araújo S/A",
+      "nomeFantasia": "Araújo",
+      "inscricaoEstadual": "0621122334455",
+      "endereco": "Av. Afonso Pena, 2100",
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    },
+    "destinatarioCpf": "98765432100",
+    "naturezaOperacao": "Venda de mercadoria",
+    "itens": [
+      { "descricao": "Suplemento Vitamina D3 2000UI 60cp", "ncm": "21069090", "quantidade": 2, "unidade": "CX", "valorUnitario": 39.90, "valorTotal": 79.80 },
+      { "descricao": "Protetor Solar FPS 50 200ml", "ncm": "33049100", "quantidade": 1, "unidade": "UN", "valorUnitario": 54.90, "valorTotal": 54.90 },
+      { "descricao": "Termômetro Digital Infravermelho", "ncm": "90251900", "quantidade": 1, "unidade": "UN", "valorUnitario": 89.90, "valorTotal": 89.90 }
+    ],
+    "valorProdutos": 224.60,
+    "valorFrete": 0,
+    "valorDesconto": 10.00,
+    "valorTotal": 214.60,
+    "icms": 38.63,
+    "status": "autorizada",
+    "protocolo": "131260000078901"
+  },
+  {
+    "id": "nfe-004",
+    "chaveAcesso": "31260455667788000199550010000012341111222233",
+    "numero": 1234,
+    "serie": 1,
+    "dataEmissao": "2025-11-20T11:00:00",
+    "emitente": {
+      "cnpj": "55667788000199",
+      "razaoSocial": "Fast Shop S/A",
+      "nomeFantasia": "Fast Shop",
+      "inscricaoEstadual": "0625566778899",
+      "endereco": "Rua da Bahia, 678 - BH Shopping",
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    },
+    "destinatarioCpf": "45612378901",
+    "naturezaOperacao": "Venda de mercadoria",
+    "itens": [
+      { "descricao": "iPhone 15 128GB", "ncm": "85171231", "quantidade": 1, "unidade": "UN", "valorUnitario": 5499.00, "valorTotal": 5499.00 },
+      { "descricao": "Película de Vidro iPhone 15", "ncm": "70071900", "quantidade": 2, "unidade": "UN", "valorUnitario": 29.90, "valorTotal": 59.80 },
+      { "descricao": "Capinha Silicone iPhone 15", "ncm": "39269090", "quantidade": 1, "unidade": "UN", "valorUnitario": 49.90, "valorTotal": 49.90 }
+    ],
+    "valorProdutos": 5608.70,
+    "valorFrete": 0,
+    "valorDesconto": 0,
+    "valorTotal": 5608.70,
+    "icms": 1009.57,
+    "status": "cancelada",
+    "protocolo": "131260000112345"
+  },
+  {
+    "id": "nfe-005",
+    "chaveAcesso": "31260633445566000188550010000002341333444555",
+    "numero": 234,
+    "serie": 1,
+    "dataEmissao": "2026-03-20T10:30:00",
+    "emitente": {
+      "cnpj": "33445566000188",
+      "razaoSocial": "Supermercado BH Com. Ltda",
+      "nomeFantasia": "Super BH",
+      "inscricaoEstadual": "0623344556677",
+      "endereco": "Av. Cristiano Machado, 4000",
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    },
+    "destinatarioCpf": "78932165409",
+    "naturezaOperacao": "Venda de mercadoria",
+    "itens": [
+      { "descricao": "Arroz Tipo 1 5kg", "ncm": "10063021", "quantidade": 2, "unidade": "PCT", "valorUnitario": 24.90, "valorTotal": 49.80 },
+      { "descricao": "Feijão Carioca 1kg", "ncm": "07133319", "quantidade": 3, "unidade": "PCT", "valorUnitario": 8.49, "valorTotal": 25.47 },
+      { "descricao": "Óleo de Soja 900ml", "ncm": "15079011", "quantidade": 2, "unidade": "UN", "valorUnitario": 7.99, "valorTotal": 15.98 },
+      { "descricao": "Leite Integral 1L", "ncm": "04012010", "quantidade": 6, "unidade": "UN", "valorUnitario": 5.49, "valorTotal": 32.94 },
+      { "descricao": "Café Torrado e Moído 500g", "ncm": "09012100", "quantidade": 1, "unidade": "PCT", "valorUnitario": 18.90, "valorTotal": 18.90 }
+    ],
+    "valorProdutos": 143.09,
+    "valorFrete": 0,
+    "valorDesconto": 5.00,
+    "valorTotal": 138.09,
+    "icms": 24.86,
+    "status": "autorizada",
+    "protocolo": "131260000023456"
+  },
+  {
+    "id": "nfe-006",
+    "chaveAcesso": "31260744556677000177550030000005671444555666",
+    "numero": 567,
+    "serie": 3,
+    "dataEmissao": "2026-02-28T15:20:00",
+    "emitente": {
+      "cnpj": "44556677000177",
+      "razaoSocial": "Decathlon Brasil Artigos Esportivos Ltda",
+      "nomeFantasia": "Decathlon",
+      "inscricaoEstadual": "0624455667788",
+      "endereco": "Av. Raja Gabáglia, 3000 - Del Rey",
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    },
+    "destinatarioCpf": "32178945612",
+    "naturezaOperacao": "Venda de mercadoria",
+    "itens": [
+      { "descricao": "Bicicleta MTB Rockrider ST100", "ncm": "87120010", "quantidade": 1, "unidade": "UN", "valorUnitario": 1299.00, "valorTotal": 1299.00 },
+      { "descricao": "Capacete Ciclismo Adulto", "ncm": "65061000", "quantidade": 1, "unidade": "UN", "valorUnitario": 89.90, "valorTotal": 89.90 },
+      { "descricao": "Luva Ciclismo Gel", "ncm": "42032900", "quantidade": 1, "unidade": "UN", "valorUnitario": 49.90, "valorTotal": 49.90 }
+    ],
+    "valorProdutos": 1438.80,
+    "valorFrete": 49.90,
+    "valorDesconto": 0,
+    "valorTotal": 1488.70,
+    "icms": 267.97,
+    "status": "autorizada",
+    "protocolo": "131260000056789"
+  }
+]

@@ -1,0 +1,199 @@
+[
+  {
+    "id": "cnh-001",
+    "titularCpf": "52998224725",
+    "numeroRegistro": "04567890123",
+    "numeroPGU": "00123456789",
+    "categoria": "AB",
+    "dataEmissao": "2022-05-10",
+    "dataValidade": "2027-05-10",
+    "dataPrimeiraHabilitacao": "2010-03-15",
+    "orgaoEmissor": "DETRAN/MG",
+    "localEmissao": "Belo Horizonte",
+    "uf": "MG",
+    "observacoes": "EAR",
+    "pontuacao": 8,
+    "situacao": "regular",
+    "infrações": [
+      {
+        "autoInfracao": "MG00012345",
+        "dataInfracao": "2025-06-15",
+        "descricao": "Transitar em velocidade superior à máxima permitida em até 20%",
+        "codigoInfracao": "74550",
+        "gravidade": "media",
+        "pontos": 4,
+        "valorMulta": 130.16,
+        "placa": "BRA2E19",
+        "local": "Av. Amazonas, 1500 - Belo Horizonte/MG",
+        "status": "pago"
+      },
+      {
+        "autoInfracao": "MG00023456",
+        "dataInfracao": "2025-11-20",
+        "descricao": "Estacionar em local proibido pela sinalização",
+        "codigoInfracao": "55250",
+        "gravidade": "media",
+        "pontos": 4,
+        "valorMulta": 130.16,
+        "placa": "BRA2E19",
+        "local": "Rua da Bahia, 800 - Belo Horizonte/MG",
+        "status": "pendente"
+      }
+    ]
+  },
+  {
+    "id": "cnh-002",
+    "titularCpf": "11144477735",
+    "numeroRegistro": "09876543210",
+    "numeroPGU": "00987654321",
+    "categoria": "B",
+    "dataEmissao": "2023-08-20",
+    "dataValidade": "2028-08-20",
+    "dataPrimeiraHabilitacao": "2015-11-01",
+    "orgaoEmissor": "DETRAN/MG",
+    "localEmissao": "Belo Horizonte",
+    "uf": "MG",
+    "observacoes": null,
+    "pontuacao": 0,
+    "situacao": "regular",
+    "infrações": []
+  },
+  {
+    "id": "cnh-003",
+    "titularCpf": "98765432100",
+    "numeroRegistro": "05544332211",
+    "numeroPGU": "00554433221",
+    "categoria": "B",
+    "dataEmissao": "2020-02-15",
+    "dataValidade": "2025-02-15",
+    "dataPrimeiraHabilitacao": "2012-06-10",
+    "orgaoEmissor": "DETRAN/MG",
+    "localEmissao": "Belo Horizonte",
+    "uf": "MG",
+    "observacoes": null,
+    "pontuacao": 15,
+    "situacao": "vencida",
+    "infrações": [
+      {
+        "autoInfracao": "MG00034567",
+        "dataInfracao": "2024-09-10",
+        "descricao": "Dirigir veículo utilizando-se de telefone celular",
+        "codigoInfracao": "25200",
+        "gravidade": "gravissima",
+        "pontos": 7,
+        "valorMulta": 293.47,
+        "placa": "RBH9A45",
+        "local": "Av. Afonso Pena, 3000 - Belo Horizonte/MG",
+        "status": "pago"
+      },
+      {
+        "autoInfracao": "MG00045678",
+        "dataInfracao": "2025-01-05",
+        "descricao": "Avançar o sinal vermelho do semáforo",
+        "codigoInfracao": "60503",
+        "gravidade": "gravissima",
+        "pontos": 7,
+        "valorMulta": 293.47,
+        "placa": "RBH9A45",
+        "local": "Av. Cristiano Machado, 2500 - Belo Horizonte/MG",
+        "status": "pendente"
+      },
+      {
+        "autoInfracao": "MG00056789",
+        "dataInfracao": "2025-04-18",
+        "descricao": "Conduzir veículo sem possuir CNH ou PPD",
+        "codigoInfracao": "50100",
+        "gravidade": "gravissima",
+        "pontos": 7,
+        "valorMulta": 880.41,
+        "placa": "RBH9A45",
+        "local": "Rua Padre Eustáquio, 500 - Belo Horizonte/MG",
+        "status": "pendente"
+      }
+    ]
+  },
+  {
+    "id": "cnh-004",
+    "titularCpf": "78932165409",
+    "numeroRegistro": "06677889900",
+    "numeroPGU": "00667788990",
+    "categoria": "C",
+    "dataEmissao": "2024-01-10",
+    "dataValidade": "2029-01-10",
+    "dataPrimeiraHabilitacao": "2008-09-25",
+    "orgaoEmissor": "DETRAN/MG",
+    "localEmissao": "Contagem",
+    "uf": "MG",
+    "observacoes": "Exerce atividade remunerada",
+    "pontuacao": 4,
+    "situacao": "regular",
+    "infrações": [
+      {
+        "autoInfracao": "MG00067890",
+        "dataInfracao": "2025-08-30",
+        "descricao": "Transitar em velocidade superior à máxima permitida em mais de 20% até 50%",
+        "codigoInfracao": "74630",
+        "gravidade": "grave",
+        "pontos": 5,
+        "valorMulta": 195.23,
+        "placa": "QMG1D56",
+        "local": "BR-040, km 542 - Contagem/MG",
+        "status": "pago"
+      }
+    ]
+  },
+  {
+    "id": "cnh-005",
+    "titularCpf": "32178945612",
+    "numeroRegistro": "03322110099",
+    "numeroPGU": "00332211009",
+    "categoria": "D",
+    "dataEmissao": "2021-11-05",
+    "dataValidade": "2026-11-05",
+    "dataPrimeiraHabilitacao": "2005-04-12",
+    "orgaoEmissor": "DETRAN/MG",
+    "localEmissao": "Belo Horizonte",
+    "uf": "MG",
+    "observacoes": "Exerce atividade remunerada",
+    "pontuacao": 12,
+    "situacao": "regular",
+    "infrações": [
+      {
+        "autoInfracao": "MG00078901",
+        "dataInfracao": "2024-12-01",
+        "descricao": "Deixar de usar o cinto de segurança",
+        "codigoInfracao": "51691",
+        "gravidade": "grave",
+        "pontos": 5,
+        "valorMulta": 195.23,
+        "placa": "NBH7C92",
+        "local": "Av. Antônio Carlos, 6627 - Belo Horizonte/MG",
+        "status": "pago"
+      },
+      {
+        "autoInfracao": "MG00089012",
+        "dataInfracao": "2025-03-14",
+        "descricao": "Transitar em velocidade superior à máxima permitida em até 20%",
+        "codigoInfracao": "74550",
+        "gravidade": "media",
+        "pontos": 4,
+        "valorMulta": 130.16,
+        "placa": "NBH7C92",
+        "local": "Av. Pedro II, 1200 - Belo Horizonte/MG",
+        "status": "pago"
+      },
+      {
+        "autoInfracao": "MG00090123",
+        "dataInfracao": "2025-09-22",
+        "descricao": "Deixar de indicar com antecedência a manobra pretendida",
+        "codigoInfracao": "51920",
+        "gravidade": "grave",
+        "pontos": 5,
+        "valorMulta": 195.23,
+        "placa": "NBH7C92",
+        "local": "Rua Guajajaras, 400 - Belo Horizonte/MG",
+        "status": "pendente"
+      }
+    ]
+  }
+]

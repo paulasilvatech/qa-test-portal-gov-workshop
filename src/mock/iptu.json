@@ -1,0 +1,252 @@
+[
+  {
+    "id": "iptu-001",
+    "inscricaoMunicipal": "0412345678",
+    "proprietarioCpf": "52998224725",
+    "imovel": {
+      "tipo": "Apartamento",
+      "endereco": "Rua dos Guajajaras, 1200, Apto 801",
+      "bairro": "Centro",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "30180-100",
+      "areaTerreno": 0,
+      "areaConstruida": 85.5
+    },
+    "anoExercicio": 2026,
+    "valorVenal": 420000.00,
+    "aliquota": 0.006,
+    "valorIPTU": 2520.00,
+    "taxaColeta": 380.40,
+    "valorTotal": 2900.40,
+    "parcelas": [
+      { "numero": 1, "valor": 264.58, "vencimento": "2026-02-15", "status": "pago" },
+      { "numero": 2, "valor": 264.58, "vencimento": "2026-03-15", "status": "pago" },
+      { "numero": 3, "valor": 264.58, "vencimento": "2026-04-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.002001 1 92600000026458" },
+      { "numero": 4, "valor": 264.58, "vencimento": "2026-05-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.002002 1 92600000026458" },
+      { "numero": 5, "valor": 264.58, "vencimento": "2026-06-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.002003 1 92600000026458" },
+      { "numero": 6, "valor": 264.58, "vencimento": "2026-07-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.002004 1 92600000026458" },
+      { "numero": 7, "valor": 264.58, "vencimento": "2026-08-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.002005 1 92600000026458" },
+      { "numero": 8, "valor": 264.58, "vencimento": "2026-09-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.002006 1 92600000026458" },
+      { "numero": 9, "valor": 264.58, "vencimento": "2026-10-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.002007 1 92600000026458" },
+      { "numero": 10, "valor": 264.58, "vencimento": "2026-11-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.002008 1 92600000026458" },
+      { "numero": 11, "valor": 264.62, "vencimento": "2026-12-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.002009 1 92600000026462" }
+    ],
+    "status": "parcelado"
+  },
+  {
+    "id": "iptu-002",
+    "inscricaoMunicipal": "0498765432",
+    "proprietarioCpf": "11144477735",
+    "imovel": {
+      "tipo": "Casa",
+      "endereco": "Rua Platina, 345",
+      "bairro": "Prado",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "30411-131",
+      "areaTerreno": 360.0,
+      "areaConstruida": 180.0
+    },
+    "anoExercicio": 2026,
+    "valorVenal": 680000.00,
+    "aliquota": 0.006,
+    "valorIPTU": 4080.00,
+    "taxaColeta": 380.40,
+    "valorTotal": 4460.40,
+    "parcelas": [
+      { "numero": 1, "valor": 4460.40, "vencimento": "2026-02-15", "status": "pago" }
+    ],
+    "status": "pago"
+  },
+  {
+    "id": "iptu-003",
+    "inscricaoMunicipal": "0423456789",
+    "proprietarioCpf": "98765432100",
+    "imovel": {
+      "tipo": "Apartamento",
+      "endereco": "Av. Afonso Pena, 3456, Apto 1502",
+      "bairro": "Funcionários",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "30130-009",
+      "areaTerreno": 0,
+      "areaConstruida": 120.0
+    },
+    "anoExercicio": 2026,
+    "valorVenal": 890000.00,
+    "aliquota": 0.006,
+    "valorIPTU": 5340.00,
+    "taxaColeta": 380.40,
+    "valorTotal": 5720.40,
+    "parcelas": [
+      { "numero": 1, "valor": 520.04, "vencimento": "2026-02-15", "status": "pago" },
+      { "numero": 2, "valor": 520.04, "vencimento": "2026-03-15", "status": "pago" },
+      { "numero": 3, "valor": 520.04, "vencimento": "2026-04-15", "status": "vencido" },
+      { "numero": 4, "valor": 520.04, "vencimento": "2026-05-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.003001 1 92600000052004" },
+      { "numero": 5, "valor": 520.04, "vencimento": "2026-06-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.003002 1 92600000052004" },
+      { "numero": 6, "valor": 520.04, "vencimento": "2026-07-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.003003 1 92600000052004" },
+      { "numero": 7, "valor": 520.04, "vencimento": "2026-08-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.003004 1 92600000052004" },
+      { "numero": 8, "valor": 520.04, "vencimento": "2026-09-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.003005 1 92600000052004" },
+      { "numero": 9, "valor": 520.04, "vencimento": "2026-10-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.003006 1 92600000052004" },
+      { "numero": 10, "valor": 520.04, "vencimento": "2026-11-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.003007 1 92600000052004" },
+      { "numero": 11, "valor": 520.00, "vencimento": "2026-12-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.003008 1 92600000052000" }
+    ],
+    "status": "vencido"
+  },
+  {
+    "id": "iptu-004",
+    "inscricaoMunicipal": "0434567890",
+    "proprietarioCpf": "45612378901",
+    "imovel": {
+      "tipo": "Sala Comercial",
+      "endereco": "Av. do Contorno, 7890, Sala 301",
+      "bairro": "Santo Agostinho",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "30110-069",
+      "areaTerreno": 0,
+      "areaConstruida": 45.0
+    },
+    "anoExercicio": 2026,
+    "valorVenal": 350000.00,
+    "aliquota": 0.016,
+    "valorIPTU": 5600.00,
+    "taxaColeta": 380.40,
+    "valorTotal": 5980.40,
+    "parcelas": [
+      { "numero": 1, "valor": 5980.40, "vencimento": "2026-02-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.004001 1 92600000598040" }
+    ],
+    "status": "pendente"
+  },
+  {
+    "id": "iptu-005",
+    "inscricaoMunicipal": "0445678901",
+    "proprietarioCpf": "78932165409",
+    "imovel": {
+      "tipo": "Casa",
+      "endereco": "Rua Bernardo Guimarães, 567",
+      "bairro": "Lourdes",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "30140-081",
+      "areaTerreno": 450.0,
+      "areaConstruida": 220.0
+    },
+    "anoExercicio": 2026,
+    "valorVenal": 1250000.00,
+    "aliquota": 0.006,
+    "valorIPTU": 7500.00,
+    "taxaColeta": 380.40,
+    "valorTotal": 7880.40,
+    "parcelas": [
+      { "numero": 1, "valor": 716.40, "vencimento": "2026-02-15", "status": "pago" },
+      { "numero": 2, "valor": 716.40, "vencimento": "2026-03-15", "status": "pago" },
+      { "numero": 3, "valor": 716.40, "vencimento": "2026-04-15", "status": "pago" },
+      { "numero": 4, "valor": 716.40, "vencimento": "2026-05-15", "status": "pago" },
+      { "numero": 5, "valor": 716.40, "vencimento": "2026-06-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.005001 1 92600000071640" },
+      { "numero": 6, "valor": 716.40, "vencimento": "2026-07-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.005002 1 92600000071640" },
+      { "numero": 7, "valor": 716.40, "vencimento": "2026-08-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.005003 1 92600000071640" },
+      { "numero": 8, "valor": 716.40, "vencimento": "2026-09-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.005004 1 92600000071640" },
+      { "numero": 9, "valor": 716.40, "vencimento": "2026-10-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.005005 1 92600000071640" },
+      { "numero": 10, "valor": 716.40, "vencimento": "2026-11-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.005006 1 92600000071640" },
+      { "numero": 11, "valor": 716.00, "vencimento": "2026-12-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.005007 1 92600000071600" }
+    ],
+    "status": "parcelado"
+  },
+  {
+    "id": "iptu-006",
+    "inscricaoMunicipal": "0456789012",
+    "proprietarioCpf": "32178945612",
+    "imovel": {
+      "tipo": "Apartamento",
+      "endereco": "Rua Espírito Santo, 890, Apto 402",
+      "bairro": "Centro",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "30160-030",
+      "areaTerreno": 0,
+      "areaConstruida": 65.0
+    },
+    "anoExercicio": 2026,
+    "valorVenal": 310000.00,
+    "aliquota": 0.006,
+    "valorIPTU": 1860.00,
+    "taxaColeta": 380.40,
+    "valorTotal": 2240.40,
+    "parcelas": [
+      { "numero": 1, "valor": 2240.40, "vencimento": "2026-02-15", "status": "pago" }
+    ],
+    "status": "pago"
+  },
+  {
+    "id": "iptu-007",
+    "inscricaoMunicipal": "0467890123",
+    "proprietarioCpf": "65498732178",
+    "imovel": {
+      "tipo": "Terreno",
+      "endereco": "Rua Cláudio Manoel, Lote 45",
+      "bairro": "Savassi",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "30140-100",
+      "areaTerreno": 600.0,
+      "areaConstruida": 0
+    },
+    "anoExercicio": 2026,
+    "valorVenal": 950000.00,
+    "aliquota": 0.03,
+    "valorIPTU": 28500.00,
+    "taxaColeta": 0,
+    "valorTotal": 28500.00,
+    "parcelas": [
+      { "numero": 1, "valor": 2590.91, "vencimento": "2026-02-15", "status": "vencido" },
+      { "numero": 2, "valor": 2590.91, "vencimento": "2026-03-15", "status": "vencido" },
+      { "numero": 3, "valor": 2590.91, "vencimento": "2026-04-15", "status": "vencido" },
+      { "numero": 4, "valor": 2590.91, "vencimento": "2026-05-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.007001 1 92600000259091" },
+      { "numero": 5, "valor": 2590.91, "vencimento": "2026-06-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.007002 1 92600000259091" },
+      { "numero": 6, "valor": 2590.91, "vencimento": "2026-07-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.007003 1 92600000259091" },
+      { "numero": 7, "valor": 2590.91, "vencimento": "2026-08-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.007004 1 92600000259091" },
+      { "numero": 8, "valor": 2590.91, "vencimento": "2026-09-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.007005 1 92600000259091" },
+      { "numero": 9, "valor": 2590.91, "vencimento": "2026-10-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.007006 1 92600000259091" },
+      { "numero": 10, "valor": 2590.91, "vencimento": "2026-11-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.007007 1 92600000259091" },
+      { "numero": 11, "valor": 2590.89, "vencimento": "2026-12-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.007008 1 92600000259089" }
+    ],
+    "status": "vencido"
+  },
+  {
+    "id": "iptu-008",
+    "inscricaoMunicipal": "0478901234",
+    "proprietarioCpf": "87654321098",
+    "imovel": {
+      "tipo": "Apartamento",
+      "endereco": "Rua Pernambuco, 1234, Apto 1201",
+      "bairro": "Savassi",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "30130-151",
+      "areaTerreno": 0,
+      "areaConstruida": 95.0
+    },
+    "anoExercicio": 2026,
+    "valorVenal": 560000.00,
+    "aliquota": 0.006,
+    "valorIPTU": 3360.00,
+    "taxaColeta": 380.40,
+    "valorTotal": 3740.40,
+    "parcelas": [
+      { "numero": 1, "valor": 340.04, "vencimento": "2026-02-15", "status": "pago" },
+      { "numero": 2, "valor": 340.04, "vencimento": "2026-03-15", "status": "pago" },
+      { "numero": 3, "valor": 340.04, "vencimento": "2026-04-15", "status": "pago" },
+      { "numero": 4, "valor": 340.04, "vencimento": "2026-05-15", "status": "pago" },
+      { "numero": 5, "valor": 340.04, "vencimento": "2026-06-15", "status": "pago" },
+      { "numero": 6, "valor": 340.04, "vencimento": "2026-07-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.008001 1 92600000034004" },
+      { "numero": 7, "valor": 340.04, "vencimento": "2026-08-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.008002 1 92600000034004" },
+      { "numero": 8, "valor": 340.04, "vencimento": "2026-09-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.008003 1 92600000034004" },
+      { "numero": 9, "valor": 340.04, "vencimento": "2026-10-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.008004 1 92600000034004" },
+      { "numero": 10, "valor": 340.04, "vencimento": "2026-11-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.008005 1 92600000034004" },
+      { "numero": 11, "valor": 339.96, "vencimento": "2026-12-15", "status": "pendente", "codigoBarras": "23793.38128 60000.000003 00000.008006 1 92600000033996" }
+    ],
+    "status": "parcelado"
+  }
+]
