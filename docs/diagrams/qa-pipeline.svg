@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480"
+     style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: white;">
+
+  <!-- ============================================ -->
+  <!-- SPATIAL GRID                                  -->
+  <!-- Row 1 (Phases 0-6): boxes y=110..162, h=52   -->
+  <!--   center_y = 136                              -->
+  <!--   Phase 0: x=56  w=110 → right (166,136)     -->
+  <!--   Phase 1: x=182 w=110 → right (292,136)     -->
+  <!--   Phase 2: x=308 w=110 → right (418,136)     -->
+  <!--   Phase 3: x=434 w=110 → right (544,136)     -->
+  <!--   Phase 4: x=560 w=110 → right (670,136)     -->
+  <!--   Phase 5: x=686 w=110 → right (796,136)     -->
+  <!--   Phase 6: x=812 w=110 → right (922,136)     -->
+  <!--                                               -->
+  <!-- Retry loop: y=162..198 (below Row 1 boxes)    -->
+  <!-- Agent labels: y=178                           -->
+  <!-- Routing channel: y=200..240 (40px gap)        -->
+  <!--                                               -->
+  <!-- Row 2 (Phases 7-8): boxes y=240..292, h=52   -->
+  <!--   center_y = 266                              -->
+  <!--   Phase 7: x=56  w=230 → right (286,266)     -->
+  <!--   Phase 8: x=310 w=230 → right (540,266)     -->
+  <!--   Deliverable badges: x=600..920              -->
+  <!-- ============================================ -->
+
+  <defs>
+    <marker id="arr" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M1,1.2 L8,4 L1,6.8" fill="#B4B2A9" stroke="none"/>
+    </marker>
+    <marker id="arr-red" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M1,1.2 L8,4 L1,6.8" fill="#F25022" stroke="none"/>
+    </marker>
+  </defs>
+
+  <!-- ============================================ -->
+  <!-- TITLE BLOCK                                   -->
+  <!-- ============================================ -->
+  <text x="60" y="36" font-size="22" font-weight="700" fill="#2C2C2A">QA Pipeline — 8-Phase End-to-End Flow</text>
+  <text x="60" y="56" font-size="13" fill="#888780">Orchestrated by qa-master · automatic handoffs · retry loops · Azure DevOps sync</text>
+  <rect x="60"  y="68" width="50" height="3" rx="1.5" fill="#0078D4"/>
+  <rect x="114" y="68" width="50" height="3" rx="1.5" fill="#7FBA00"/>
+  <rect x="168" y="68" width="50" height="3" rx="1.5" fill="#FFB900"/>
+  <rect x="222" y="68" width="50" height="3" rx="1.5" fill="#F25022"/>
+
+  <!-- ============================================ -->
+  <!-- SECTION BACKGROUNDS                           -->
+  <!-- ============================================ -->
+  <rect x="40" y="90"  width="1120" height="110" rx="8" fill="#0078D4" opacity="0.02"/>
+  <rect x="40" y="235" width="1120" height="70"  rx="8" fill="#FFB900" opacity="0.02"/>
+
+  <!-- ============================================ -->
+  <!-- ROW 1 — PHASES 0-6                            -->
+  <!-- boxes: h=52, center_y=136, gap=16             -->
+  <!-- ============================================ -->
+
+  <!-- Phase 0: Recon -->
+  <rect x="56" y="110" width="110" height="52" rx="6" fill="#0078D4" opacity="0.08"/>
+  <rect x="56" y="110" width="110" height="52" rx="6" fill="none" stroke="#0078D4" stroke-width="1"/>
+  <text x="111" y="132" text-anchor="middle" font-size="9" font-weight="700" fill="#0078D4" letter-spacing="0.5">PHASE 0</text>
+  <text x="111" y="149" text-anchor="middle" font-size="11" font-weight="600" fill="#2C2C2A">Recon</text>
+
+  <!-- Phase 1: Coverage -->
+  <rect x="182" y="110" width="110" height="52" rx="6" fill="#7FBA00" opacity="0.08"/>
+  <rect x="182" y="110" width="110" height="52" rx="6" fill="none" stroke="#7FBA00" stroke-width="1"/>
+  <text x="237" y="132" text-anchor="middle" font-size="9" font-weight="700" fill="#7FBA00" letter-spacing="0.5">PHASE 1</text>
+  <text x="237" y="149" text-anchor="middle" font-size="11" font-weight="600" fill="#2C2C2A">Coverage</text>
+
+  <!-- Phase 2: Planning -->
+  <rect x="308" y="110" width="110" height="52" rx="6" fill="#7FBA00" opacity="0.08"/>
+  <rect x="308" y="110" width="110" height="52" rx="6" fill="none" stroke="#7FBA00" stroke-width="1"/>
+  <text x="363" y="132" text-anchor="middle" font-size="9" font-weight="700" fill="#7FBA00" letter-spacing="0.5">PHASE 2</text>
+  <text x="363" y="149" text-anchor="middle" font-size="11" font-weight="600" fill="#2C2C2A">Planning</text>
+
+  <!-- Phase 3: Writing -->
+  <rect x="434" y="110" width="110" height="52" rx="6" fill="#7FBA00" opacity="0.08"/>
+  <rect x="434" y="110" width="110" height="52" rx="6" fill="none" stroke="#7FBA00" stroke-width="1"/>
+  <text x="489" y="132" text-anchor="middle" font-size="9" font-weight="700" fill="#7FBA00" letter-spacing="0.5">PHASE 3</text>
+  <text x="489" y="149" text-anchor="middle" font-size="11" font-weight="600" fill="#2C2C2A">Writing</text>
+
+  <!-- Phase 4: Execution -->
+  <rect x="560" y="110" width="110" height="52" rx="6" fill="#FFB900" opacity="0.08"/>
+  <rect x="560" y="110" width="110" height="52" rx="6" fill="none" stroke="#FFB900" stroke-width="1"/>
+  <text x="615" y="132" text-anchor="middle" font-size="9" font-weight="700" fill="#BA7517" letter-spacing="0.5">PHASE 4</text>
+  <text x="615" y="149" text-anchor="middle" font-size="11" font-weight="600" fill="#2C2C2A">Execution</text>
+
+  <!-- Phase 5: QA Inspect -->
+  <rect x="686" y="110" width="110" height="52" rx="6" fill="#F25022" opacity="0.08"/>
+  <rect x="686" y="110" width="110" height="52" rx="6" fill="none" stroke="#F25022" stroke-width="1"/>
+  <text x="741" y="132" text-anchor="middle" font-size="9" font-weight="700" fill="#F25022" letter-spacing="0.5">PHASE 5</text>
+  <text x="741" y="149" text-anchor="middle" font-size="11" font-weight="600" fill="#2C2C2A">QA Inspect</text>
+
+  <!-- Phase 6: Review -->
+  <rect x="812" y="110" width="110" height="52" rx="6" fill="#FFB900" opacity="0.08"/>
+  <rect x="812" y="110" width="110" height="52" rx="6" fill="none" stroke="#FFB900" stroke-width="1"/>
+  <text x="867" y="132" text-anchor="middle" font-size="9" font-weight="700" fill="#BA7517" letter-spacing="0.5">PHASE 6</text>
+  <text x="867" y="149" text-anchor="middle" font-size="11" font-weight="600" fill="#2C2C2A">Review</text>
+
+  <!-- ============================================ -->
+  <!-- SEQUENTIAL ARROWS — Phase 0 → 6               -->
+  <!-- All horizontal at y=136, in the 16px gaps.    -->
+  <!-- No overlaps with any boxes.                   -->
+  <!-- ============================================ -->
+  <path d="M166,136 H181" stroke="#B4B2A9" stroke-width="1.3" fill="none" marker-end="url(#arr)"/>
+  <path d="M292,136 H307" stroke="#B4B2A9" stroke-width="1.3" fill="none" marker-end="url(#arr)"/>
+  <path d="M418,136 H433" stroke="#B4B2A9" stroke-width="1.3" fill="none" marker-end="url(#arr)"/>
+  <path d="M544,136 H559" stroke="#B4B2A9" stroke-width="1.3" fill="none" marker-end="url(#arr)"/>
+  <path d="M670,136 H685" stroke="#B4B2A9" stroke-width="1.3" fill="none" marker-end="url(#arr)"/>
+  <path d="M796,136 H811" stroke="#B4B2A9" stroke-width="1.3" fill="none" marker-end="url(#arr)"/>
+
+  <!-- ============================================ -->
+  <!-- RETRY LOOP: Phase 4 ⇄ Phase 3                -->
+  <!-- Routes below boxes at y=170..190, safely in   -->
+  <!-- the gap between Row 1 boxes (bottom=162) and  -->
+  <!-- the routing channel.                          -->
+  <!-- ============================================ -->
+  <path d="M602,162 V180 Q602,188 592,188 H502 Q492,188 492,180 V162"
+        stroke="#F25022" stroke-width="1.2" fill="none" stroke-dasharray="5 3" marker-end="url(#arr-red)"/>
+  <text x="547" y="204" text-anchor="middle" font-size="9" fill="#F25022" font-weight="600">retry loop (max 2)</text>
+
+  <!-- ============================================ -->
+  <!-- AGENT LABELS — below each phase               -->
+  <!-- At y=178, between box bottom (162) and retry  -->
+  <!-- Positioned to avoid the retry loop area.      -->
+  <!-- ============================================ -->
+  <text x="111" y="178" text-anchor="middle" font-size="10" fill="#0078D4" font-weight="500">qa-master</text>
+  <text x="237" y="178" text-anchor="middle" font-size="10" fill="#7FBA00" font-weight="500">test-analyzer</text>
+  <text x="363" y="178" text-anchor="middle" font-size="10" fill="#7FBA00" font-weight="500">test-planner</text>
+  <text x="741" y="178" text-anchor="middle" font-size="10" fill="#F25022" font-weight="500">qa-inspector</text>
+  <text x="867" y="178" text-anchor="middle" font-size="10" fill="#BA7517" font-weight="500">code-reviewer</text>
+  <!-- writer and runner labels moved below retry loop -->
+  <text x="489" y="204" text-anchor="middle" font-size="10" fill="#7FBA00" font-weight="500">test-writer</text>
+  <text x="615" y="178" text-anchor="middle" font-size="10" fill="#BA7517" font-weight="500">test-runner</text>
+
+  <!-- ============================================ -->
+  <!-- PHASE 6 → ROW 2 connection                    -->
+  <!-- Routes through the 40px routing channel       -->
+  <!-- (y=200..240). Goes from Phase 6 bottom-center -->
+  <!-- (867,162) → down to y=220 → left to Phase 7   -->
+  <!-- top-center (171,240). No box crossing.        -->
+  <!-- ============================================ -->
+  <path d="M867,162 V220 Q867,228 857,228 H181 Q171,228 171,236 V239"
+        stroke="#B4B2A9" stroke-width="1.3" fill="none" marker-end="url(#arr)"/>
+
+  <!-- ============================================ -->
+  <!-- ROW 2 — PHASES 7-8                            -->
+  <!-- boxes: h=52, center_y=266, gap=24             -->
+  <!-- ============================================ -->
+
+  <!-- Phase 7: E2E — Playwright -->
+  <rect x="56" y="240" width="230" height="52" rx="6" fill="#FFB900" opacity="0.08"/>
+  <rect x="56" y="240" width="230" height="52" rx="6" fill="none" stroke="#FFB900" stroke-width="1"/>
+  <text x="171" y="262" text-anchor="middle" font-size="9" font-weight="700" fill="#BA7517" letter-spacing="0.5">PHASE 7</text>
+  <text x="171" y="279" text-anchor="middle" font-size="11" font-weight="600" fill="#2C2C2A">E2E — Playwright</text>
+
+  <!-- Phase 8: Azure DevOps Sync -->
+  <rect x="310" y="240" width="230" height="52" rx="6" fill="#F25022" opacity="0.08"/>
+  <rect x="310" y="240" width="230" height="52" rx="6" fill="none" stroke="#F25022" stroke-width="1"/>
+  <text x="425" y="262" text-anchor="middle" font-size="9" font-weight="700" fill="#F25022" letter-spacing="0.5">PHASE 8</text>
+  <text x="425" y="279" text-anchor="middle" font-size="11" font-weight="600" fill="#2C2C2A">Azure DevOps Sync</text>
+
+  <!-- Phase 7 → Phase 8 (horizontal) -->
+  <path d="M286,266 H309" stroke="#B4B2A9" stroke-width="1.3" fill="none" marker-end="url(#arr)"/>
+
+  <!-- Row 2 agent labels -->
+  <text x="171" y="306" text-anchor="middle" font-size="10" fill="#BA7517" font-weight="500">playwright-e2e</text>
+  <text x="425" y="306" text-anchor="middle" font-size="10" fill="#F25022" font-weight="500">azdo-sync</text>
+
+  <!-- ============================================ -->
+  <!-- DELIVERABLE BADGES — right of Phase 8         -->
+  <!-- ============================================ -->
+  <rect x="590" y="240" width="120" height="22" rx="11" fill="#0078D4" opacity="0.07"/>
+  <text x="650" y="255" text-anchor="middle" font-size="10" font-weight="600" fill="#0078D4">Test Plans</text>
+
+  <rect x="720" y="240" width="120" height="22" rx="11" fill="#7FBA00" opacity="0.07"/>
+  <text x="780" y="255" text-anchor="middle" font-size="10" font-weight="600" fill="#7FBA00">Test Cases</text>
+
+  <rect x="590" y="268" width="120" height="22" rx="11" fill="#FFB900" opacity="0.07"/>
+  <text x="650" y="283" text-anchor="middle" font-size="10" font-weight="600" fill="#BA7517">User Stories</text>
+
+  <rect x="720" y="268" width="120" height="22" rx="11" fill="#F25022" opacity="0.07"/>
+  <text x="780" y="283" text-anchor="middle" font-size="10" font-weight="600" fill="#F25022">Bug Reports</text>
+
+  <!-- ============================================ -->
+  <!-- ORCHESTRATOR BAR                              -->
+  <!-- ============================================ -->
+  <rect x="40" y="320" width="1120" height="34" rx="6" fill="#0078D4" opacity="0.04"/>
+  <text x="600" y="342" text-anchor="middle" font-size="13" font-weight="600" fill="#0078D4">Orchestrated by qa-master — all 8 phases in a single command</text>
+
+  <!-- ============================================ -->
+  <!-- LEGEND                                        -->
+  <!-- ============================================ -->
+  <line x1="40" y1="375" x2="1160" y2="375" stroke="#E8E6DF" stroke-width="1"/>
+
+  <rect x="70" y="392" width="18" height="14" rx="3" fill="#7FBA00" opacity="0.08" stroke="#7FBA00" stroke-width="1"/>
+  <text x="96" y="404" font-size="11" font-weight="500" fill="#2C2C2A">Pipeline phase</text>
+
+  <line x1="210" y1="399" x2="248" y2="399" stroke="#B4B2A9" stroke-width="1.3" marker-end="url(#arr)"/>
+  <text x="256" y="404" font-size="11" font-weight="500" fill="#2C2C2A">Sequential flow</text>
+
+  <line x1="380" y1="399" x2="418" y2="399" stroke="#F25022" stroke-width="1.2" stroke-dasharray="5 3"/>
+  <text x="426" y="404" font-size="11" font-weight="500" fill="#2C2C2A">Retry loop</text>
+
+  <rect x="530" y="392" width="18" height="14" rx="7" fill="#0078D4" opacity="0.07"/>
+  <text x="556" y="404" font-size="11" font-weight="500" fill="#2C2C2A">Azure DevOps deliverable</text>
+
+  <text x="740" y="404" font-size="10" fill="#0078D4" font-weight="500">agent-name</text>
+  <text x="810" y="404" font-size="11" font-weight="500" fill="#2C2C2A">Responsible agent</text>
+</svg>

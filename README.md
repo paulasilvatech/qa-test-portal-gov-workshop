@@ -14,9 +14,11 @@ A full-stack Brazilian government services portal built as an **AI-assisted QA &
 - [Government Services](#government-services)
 - [Getting Started](#getting-started)
 - [AI-Powered QA Ecosystem](#ai-powered-qa-ecosystem)
-  - [Custom Agents (10)](#custom-agents)
+  - [Custom Agents (11)](#custom-agents)
   - [Reusable Prompts (4)](#reusable-prompts)
   - [Coding Instructions (3)](#coding-instructions)
+  - [Custom Skills (3)](#custom-skills-3)
+  - [Document Creator Agent](#document-creator-agent)
   - [Session Hooks (2)](#session-hooks)
   - [CI/CD Workflow](#cicd-workflow)
 - [The QA Pipeline — End-to-End Flow](#the-qa-pipeline--end-to-end-flow)
@@ -71,7 +73,8 @@ This is not just a testing workshop. It is a **blueprint for AI-augmented qualit
 | | Uvicorn | 0.34 |
 | | Pytest + pytest-cov | 8.0+ |
 | | Ruff (linter) | 0.8+ |
-| **AI QA Ecosystem** | GitHub Copilot Custom Agents | 10 agents |
+| **AI QA Ecosystem** | GitHub Copilot Custom Agents | 11 agents |
+| | Custom Skills (with golden references) | 3 skills |
 | | Reusable Prompts | 4 prompts |
 | | Coding Instructions | 3 files |
 | | Session Hooks | 2 hooks |
@@ -181,7 +184,7 @@ This is the heart of the workshop. The `.github/` directory contains a full AI Q
 
 ```
 .github/
-├── agents/              # 10 custom Copilot agents
+├── agents/              # 11 custom Copilot agents
 │   ├── qa-master.agent.md
 │   ├── python-test-orchestrator.agent.md
 │   ├── test-analyzer.agent.md
@@ -191,7 +194,19 @@ This is the heart of the workshop. The `.github/` directory contains a full AI Q
 │   ├── qa-inspector.agent.md
 │   ├── code-reviewer.agent.md
 │   ├── playwright-e2e.agent.md
-│   └── azdo-sync.agent.md
+│   ├── azdo-sync.agent.md
+│   └── document-creator.agent.md
+├── skills/              # 3 companion skill files (loaded by agents)
+│   ├── svg-professional/
+│   │   ├── SKILL.md
+│   │   └── references/
+│   │       ├── golden-flowchart.svg
+│   │       └── golden-quadrant.svg
+│   ├── markdown-writer/
+│   │   └── SKILL.md
+│   └── pdf-creator/
+│       ├── SKILL.md
+│       └── pdf_template.py
 ├── prompts/             # 4 reusable prompt files
 │   ├── run-full-qa.prompt.md
 │   ├── coverage-report.prompt.md
@@ -235,31 +250,9 @@ The repository defines **10 specialized agents** that work together as a multi-a
 
 #### Agent Interaction Diagram
 
-```
-                         ┌─────────────────────────┐
-                         │       qa-master          │
-                         │  (Master Orchestrator)   │
-                         └──────────┬──────────────┘
-                                    │ delegates to
-       ┌────────────┬───────────┬──┴───┬──────────┬──────────┬──────────┐
-       ▼            ▼           ▼      ▼          ▼          ▼          ▼
-  ┌─────────┐ ┌──────────┐ ┌───────┐ ┌──────┐ ┌────────┐ ┌────────┐ ┌──────┐
-  │ analyzer│→│ planner  │→│writer │⇄│runner│→│inspector│→│reviewer│→│ azdo │
-  │ (read)  │ │ (plan)   │ │(code) │ │(exec)│ │ (QA)   │ │(review)│ │(sync)│
-  └─────────┘ └──────────┘ └───────┘ └──────┘ └────────┘ └────────┘ └──────┘
-                                ▲         │
-                                └─────────┘
-                              retry loop (max 2)
-
-                         ┌──────────────┐
-                         │playwright-e2e│  (E2E browser tests)
-                         └──────┬───────┘
-                                │ hands off bugs to
-                                ▼
-                         ┌──────────────┐
-                         │   azdo-sync  │  (Azure DevOps)
-                         └──────────────┘
-```
+<p align="center">
+  <img src="docs/diagrams/agent-interaction.svg" alt="Agent Interaction Diagram" width="100%"/>
+</p>
 
 ### Reusable Prompts
 
@@ -281,6 +274,30 @@ Instruction files are automatically loaded by Copilot when editing matching file
 | **python-code.instructions.md** | `api/application_core/**/*.py`, `api/infrastructure/**/*.py` | Clean Architecture layers, service method pattern (enum returns, try/except, no raised exceptions), naming conventions, date handling with `timedelta`, dependency injection via constructors. |
 | **python-tests.instructions.md** | `api/tests/**/*.py` | Unittest + pytest coexistence rule, DummyJsonData stubs for repos, MagicMock for services, `@pytest.fixture` returning `(service, mock_repo)`, `@pytest.mark.parametrize` with `ids=`, separator convention, all 18 enum branches documented. |
 | **portal-gov-tests.instructions.md** | `api/tests/**/*.py` | Complete enum reference with exact conditions for all branches (PagamentoIPVAStatus, ParcelamentoIPVAStatus, RenovacaoCNHStatus), entity constructor signatures, test command cheat sheet. |
+
+### Custom Skills (3)
+
+Skills are companion knowledge files that agents load before performing specialized tasks. They contain domain rules, templates, color palettes, quality checklists, and golden references — keeping agents lean while the skill provides all the expertise.
+
+| Skill | Directory | What It Provides |
+|---|---|---|
+| **svg-professional** | `.github/skills/svg-professional/` | Publication-quality SVG creation: orthogonal connector routing with Q-curve corners, spatial grid planning, text-fit rules, Microsoft brand color palette, section backgrounds, metric badges, typography scale, and a quality checklist. Includes `references/golden-flowchart.svg` and `references/golden-quadrant.svg` as canonical examples. |
+| **markdown-writer** | `.github/skills/markdown-writer/` | Professional Markdown documents with YAML frontmatter, semantic versioning, author attribution, table of contents, and consistent formatting standards. |
+| **pdf-creator** | `.github/skills/pdf-creator/` | Microsoft-branded PDF generation via HTML + WeasyPrint pipeline. Section colors cycle through the logo palette (Red → Green → Blue → Yellow), clickable TOC, status badges, full-bleed cover. Includes a batch generation script. |
+
+**How agents use skills**: The `document-creator` agent reads the user's intent, selects the matching skill file, loads it completely, then follows its rules. For example, when asked to create an SVG diagram, the agent loads `svg-professional/SKILL.md`, studies the golden reference files, and applies orthogonal routing, spatial math, and brand colors.
+
+### Document Creator Agent
+
+In addition to the QA agents, the repository includes a **Document Creator** agent (`.github/agents/document-creator.agent.md`) — a generalist that creates professional documents by routing to the correct skill:
+
+| User Intent | Format | Skill Loaded |
+|---|---|---|
+| SVG diagram, architecture visual, flowchart | SVG | `svg-professional/SKILL.md` + `references/` |
+| Markdown, README, ADR, specification, guide | MD | `markdown-writer/SKILL.md` |
+| PDF report, branded PDF | PDF | `pdf-creator/SKILL.md` |
+
+This agent follows the **lean agent + rich skill** pattern: the agent defines the workflow (gather requirements → load skill → generate → validate), while the skill provides all domain knowledge (color rules, layout standards, templates).
 
 ### Session Hooks
 
@@ -353,17 +370,9 @@ All results are synced to Azure DevOps:
 - **Bugs** created for QA findings with severity, repro steps, and linked Test Cases
 - **Test results** uploaded from JUnit XML output
 
-```
- Coverage    Test      Test       Test      QA        Code       E2E       Azure
- Analysis → Planning → Writing → Running → Inspect → Review → Playwright → DevOps
-    │          │          │        ▲  │       │          │          │         │
-    │          │          │        │  │       │          │          │         │
-    │          │          └────────┘  │       │          │          │         │
-    │          │          retry loop  │       │          │          │         │
-    │          │                      │       │          │          │         │
-    └──────────┴──────────────────────┴───────┴──────────┴──────────┴─────────┘
-                            Orchestrated by qa-master
-```
+<p align="center">
+  <img src="docs/diagrams/qa-pipeline.svg" alt="QA Pipeline — 8-Phase End-to-End Flow" width="100%"/>
+</p>
 
 ---
 
